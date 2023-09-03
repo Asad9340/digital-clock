@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400;1,500&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@100&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: font-family: 'Poppins', sans-serif;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2e2e44;
+}
+.clock{
+  position: relative;
+  color: #fff;
+  background: #2d2f41;
+  border-radius: 20px;
+  padding: 50px 90px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 5px 25px rgba(14, 21, 37 ,0.8);
+}
+.time{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hour, .minutes, .dots , .second{
+  display: flex;
+  font-size: 80px;
+  font-weight: 900;
+}
+.dots{
+  color: #929292;
+}
+.hour , .minutes{
+  background:-webkit-linear-gradient(90deg,#634dff,#5fd3ff) ;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.second{
+  background:-webkit-linear-gradient(90deg,#ff5e9a,#ffb960) ;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.for-ampm{
+  padding: 10px;
+  font-size: 30px;
+  background:-webkit-linear-gradient(90deg,hsl(338, 70%, 43%),#c9c1b6) ;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.calendar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  background:-webkit-linear-gradient(90deg,#ae4af6,#ff98d1) ;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.month , .date , .day{
+  margin: 10px;
+}
